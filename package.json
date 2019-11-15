@@ -10,10 +10,18 @@
     "type": "git",
     "url": "git+https://github.com/TechGuyTy/LightsCameraACTION.git"
   },
+  "scripts": {
+    "start": "node server.js",
+    "test": "mocha ./tests --recursive -R nyan"
+  },
   "author": "TechGuyTy",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/TechGuyTy/LightsCameraACTION/issues"
   },
-  "homepage": "https://github.com/TechGuyTy/LightsCameraACTION#readme"
+  "homepage": "https://github.com/TechGuyTy/LightsCameraACTION#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.0.2"
+  }
 }
